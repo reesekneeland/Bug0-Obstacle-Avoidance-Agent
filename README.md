@@ -2,8 +2,10 @@
 A simple ROS implementation of a Bug0 obstacle avoidance robot agent.
 
 ### How to Run
-Run the file with "python3 stage_mover.py <x coordinate> <y coordinate>", 
-inputting the target coordinates of where the bug should move.
+1. Start **roscore** in a terminal.
+2. In another terminal, navigate to the directory containing the world file. In the sample, the file is called bug-test.world.
+3. Type the command **rosrun stage_ros stageros bug-test.world**. This will bring up stage with a map with polygonal/non-polygonal obstacles.
+4. Run the file with **python3 stage_mover.py <x coordinate> <y coordinate>**, inputting the target coordinates of where the bug should move.
 
 Ex.
 
