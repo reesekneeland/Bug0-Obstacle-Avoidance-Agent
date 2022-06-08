@@ -94,7 +94,7 @@ class Bug0():
 
                 self.cmd_vel_pub.publish(com)
                 self.rate.sleep()
-                print("target reached!")
+            print("target reached!")
             com.linear.x = 0
             com.angular.z = 0
             rospy.spin()
